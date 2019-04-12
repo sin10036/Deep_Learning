@@ -1,0 +1,5 @@
+## PROBLEM
+
+
+This assignment has two parts. In the first you will use a generative adversarial network to train on the CelebA Dataset and learn to generate face images. In the second part, you will train an RNN for two tasks on text data: language classification and text generation. In the generation task your RNN will learn to generate text by predicting the most likely next character based on previous characters. In the language classification task, your RNN will learn to detect which language a chunk of text is written in (similar to a feature you might find in an online translator). While this might be relatively easy to do if the input text is unicode and unique characters indicate a particular language, we address the case where all input text to converted to ASCII characters so our network must learn instead to detect letter patterns.
+In addition to familiarizing you with generative models and recurrent neural networks, this assignment will help you gain experience with how to implement GANs/RNNs in PyTorch and how to process text data for character based prediction tasks.
